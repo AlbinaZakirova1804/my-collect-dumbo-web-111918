@@ -5,7 +5,7 @@ def my_collect(collection)
  # array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
   i = 0
   while i < collection.length
-     new_collection yield collection[i].split.first
+     new_collection << yield collection[i].split.first
      
      i += 1
   end
