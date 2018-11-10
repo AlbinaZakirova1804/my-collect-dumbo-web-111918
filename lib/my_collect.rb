@@ -5,8 +5,8 @@ def my_collect(collection)
  # array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
   i = 0
   while i < collection.length
-     new_collection=collection[i].splite(' ')
-     new_collection << yield new_collection.first
+     new_collection yield collection[i].splite.first
+     
      i += 1
   end
   new_collection
